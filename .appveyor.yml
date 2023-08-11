@@ -9,7 +9,7 @@ branches:
 build: off
 
 install:
-  - java -jar ./artefacts/app-mbank.jar & sleep 10
+  - java -jar ./artefacts/app-mbank.jar &
   - chmod +x gradlew
 
 build_script:
